@@ -8,7 +8,7 @@ new Vue({
       this.title = event.target.value
     },
     sayHello: function(){
-      return 'Hello! LOH'
+      return this.title
     }
   }
 })
