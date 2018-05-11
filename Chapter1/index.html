@@ -12,8 +12,10 @@
 
   <div id="app">
     <input type="text"  v-on:input="changeTitle">
-    <p v-once>{{ title }} - <a v-bind:href="link"> Google </a> </p>
-    <p>{{ sayHello() }}</p>
+    <p v-once>{{ title }} </p>
+    <p>{{ sayHello() }} - <a v-bind:href="link"> Google </a>  </p>
+    <hr>
+    <p v-html="finishedLink"></p>
   </div>
 
   <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
