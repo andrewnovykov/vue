@@ -9,7 +9,7 @@ new Vue({
       this.title = event.target.value
     },
     sayHello: function(){
-      return this.title
+       this.title = 'Hello world'
     }
   }
 })
